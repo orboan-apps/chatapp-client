@@ -1,4 +1,4 @@
-chatapp
-=======
+chatapp client
+==============
 
-ChatApp (java sockets app for chatting)
+ChatApp (java sockets swing threads)
