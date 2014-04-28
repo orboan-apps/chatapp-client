@@ -206,7 +206,7 @@ public class RoomPanelController implements ActionListener {
                     roomPanel.getMessageTextArea().requestFocusInWindow();
                     roomPanel.getUsersList().setEnabled(true);
                     roomPanel.getjLabel2().setText(loggedInLabeText + this.username);
-                    this.privateChannels = Collections.synchronizedSet(new HashSet<>());
+                    this.privateChannels = Collections.synchronizedSet(new HashSet<PrivateView>());
                 } else {
                     Message m = Messages.getLOGIN_FAILED();
                     StringBuilder sb = new StringBuilder();
